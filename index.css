@@ -1,0 +1,122 @@
+.nav{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  padding-top: 1.2rem;
+  position: static;
+}
+.centre{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 25px;
+  background-color: black;
+  color: white;
+  border-radius: 40px;
+  padding: 0.6rem;
+  width: 20vw;
+  height: 6vh;
+  font-family: "Livvic", sans-serif;
+  font-size: 0.9rem;
+  
+}
+.left{
+  font-family: "Livvic", sans-serif;
+  color: blue;
+
+
+}
+
+.right{
+  font-family: "Livvic", sans-serif;
+  font-size: 1rem;
+}
+.text h2{
+ 
+    font-family: "Julius Sans One", sans-serif;
+    font-size: 4.3rem;
+    padding: 4rem;
+    font-weight: 550;
+   
+  
+  
+}
+.text h3{
+  font-family: "Livvic", sans-serif;
+  font-size: 2rem;
+  font-weight: 600;
+  
+ 
+ 
+
+}
+.text{
+  padding-top: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  
+  height: 60vh;
+  width: 100vw;
+ 
+}
+body{
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.page1{
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+.page2{
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+
+}
+.sub{
+  font-size: 2rem;
+  font-family: "Julius Sans One", sans-serif;
+  
+  font-weight: 600;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 80vw;
+  height: 20vh;
+ 
+  border-bottom: 2px solid black;
+
+}
+.one{
+  color: white;
+}
+
+.two{
+  color: white;
+}
+
+.subhead{
+  width: 100vw;
+  height: 30vh;
+ 
+  display: flex;
+  justify-content: space-around;
+ padding-top: 1rem;
+  
+
+
+}
+.subhead h3{
+  font-size: 1.5rem;
+  font-family: "Livvic", sans-serif;
+  font-weight: 400;
+}
