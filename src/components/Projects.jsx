@@ -1,25 +1,4 @@
-const WORK_PROJECTS = [
-  {
-    path: 'ucf-portal',
-    title: 'UCF Portal',
-    desc: 'A responsive front-end application with reusable, scalable UI components — cut navigation latency by 40% and sped up development by 35%.',
-    tags: ['React.js', 'JavaScript'],
-  },
-  {
-    path: 'mycloud-ticketing',
-    title: 'MyCloud Ticketing System',
-    desc: 'A ticket-based support portal with role-based dashboards and real-time tracking — cut manual support load by 45% and resolution time by 30%.',
-    tags: ['React.js', 'REST APIs', 'RBAC'],
-  },
-  {
-    path: 'indiaai-speedcloud',
-    title: 'IndiaAI SpeedCloud',
-    desc: 'Front-end and purchase flow for a GPU marketplace platform — reduced drop-off by 20% and improved purchase efficiency by 25%.',
-    tags: ['React.js', 'REST APIs'],
-  },
-]
-
-const PERSONAL_PROJECTS = [
+const PROJECTS = [
   {
     path: 'swiggy-clone',
     title: 'Swiggy Clone',
@@ -31,6 +10,24 @@ const PERSONAL_PROJECTS = [
     title: 'Real-Time Chat Application',
     desc: 'An end-to-end chat app with bidirectional messaging over Socket.IO for low-latency delivery and live updates.',
     tags: ['React.js', 'Node.js', 'MongoDB', 'Socket.IO'],
+  },
+  {
+    path: 'mini-socio',
+    title: 'Mini Socio — Social Media API',
+    desc: 'A backend-only social networking API built to practice server architecture — JWT authentication, MongoDB data modeling, media uploads, and Socket.IO for real-time notifications.',
+    tags: ['Node.js', 'Express', 'MongoDB', 'JWT', 'Socket.IO'],
+  },
+  {
+    path: 'netflix-clone',
+    title: 'Netflix Clone',
+    desc: 'A Netflix-style streaming UI clone with Firebase-backed login and sign-up, and client-side routing between the browsing and auth screens.',
+    tags: ['React.js', 'Tailwind CSS', 'Firebase', 'React Router'],
+  },
+  {
+    path: 'pizza-project',
+    title: 'Pizza Ordering App',
+    desc: 'A food-ordering app covering restaurant browsing, menu selection, cart, and checkout — using Jotai for atom-based state management and Firebase for authentication.',
+    tags: ['React.js', 'Jotai', 'Firebase', 'Tailwind CSS'],
   },
 ]
 
@@ -59,14 +56,7 @@ export default function Projects() {
         </div>
 
         <div className="proj-grid">
-          {WORK_PROJECTS.map((project) => (
-            <ProjectCard project={project} key={project.path} />
-          ))}
-        </div>
-
-        <div className="proj-personal-label">personal builds</div>
-        <div className="proj-grid">
-          {PERSONAL_PROJECTS.map((project) => (
+          {PROJECTS.map((project) => (
             <ProjectCard project={project} key={project.path} />
           ))}
         </div>

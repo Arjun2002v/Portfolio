@@ -31,7 +31,7 @@ const SKILL_GROUPS = [
   {
     group: 'backend',
     title: 'backend',
-    tags: ['REST APIs', 'JWT Auth', 'Socket.IO'],
+    tags: ['REST APIs', 'JWT Auth', 'OAuth', 'Socket.IO', 'Firebase'],
   },
   {
     group: 'databases',
