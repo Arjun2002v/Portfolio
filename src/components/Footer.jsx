@@ -13,7 +13,7 @@ export default function Footer() {
             <a href="tel:+919745191989">+91 97451 91989</a>
           </div>
         </div>
-        <div className="foot-note">designed & built for Arjun Vapalla</div>
+   
       </div>
     </footer>
   )
